@@ -6,6 +6,7 @@ A simple console-based weather app that provides weather information for a given
 
 - [Features](#features)
 - [Installation](#installation)
+- [Usage](#usage)
 - [API Provider](#api-provider)
 - [License](#license)
 
@@ -22,6 +23,12 @@ A simple console-based weather app that provides weather information for a given
    ```shell
    git clone https://github.com/AronnoDIU/Console-based_Weather_App.git
     ```
+
+## Usage
+
+- Interactive console interface.
+- Real-time weather data from OpenWeatherMap API.
+- Displays temperature and weather description.
 
 ## API Provider
 
