@@ -20,7 +20,7 @@ public class WeatherApp {
             // Construct API URL with API key and city name as parameters and get weather data
             String apiUrl = String.format(API_URL, city, API_KEY);
             String jsonResponse = getWeatherData(apiUrl);
-            /* e.g. {"coord":{"lon":-0.1257,"lat":51.5085},"weather":[{"id":804,"main":"Clouds",
+            /* e.g. {"cord":{"lon":-0.1257,"lat":51.5085},"weather":[{"id":804,"main":"Clouds",
              "description":"overcast clouds","icon":"04d"}],"base":"stations",
              "main":{"temp":286.15,"feels_like":285.43,"temp_min":284.82,
              "temp_max":287.04,"pressure":1016,"humidity":87},
@@ -54,7 +54,7 @@ public class WeatherApp {
             while ((line = reader.readLine()) != null) {
                 response.append(line); // Append line to a response StringBuilder object
             }
-        } finally { // Finally block is executed regardless of whether an exception is thrown or not
+        } finally { // Finally, block is executed regardless of whether an exception is thrown or not
             connection.disconnect(); // Disconnect connection
         }
 
